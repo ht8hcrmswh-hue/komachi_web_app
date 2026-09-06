@@ -21,7 +21,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Download verified Komachi web build
-        run: curl -L --fail --silent --show-error 'https://sdmntprwestcentralus.oaiusercontent.com/files/00000000-02b8-81fb-befb-b996a67bb42f/raw?se=2026-09-06T06%3A28%3A00Z&sp=r&sv=2026-02-06&sr=b&scid=01a07561-b0da-763d-9bd6-96fba5d75d8e&skoid=03727f49-62d3-42ac-8350-1c0e6559d238&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-09-06T00%3A17%3A25Z&ske=2026-09-07T00%3A17%3A25Z&sks=b&skv=2026-02-06&sig=%2BufK8TXJrPKUsk4QjP68OBjYwBAifJpcjhVB1V7lzQg%3D' -o komachi-web.zip
+        run: curl -L --fail --silent --show-error 'https://sdmntprjapaneast.oaiusercontent.com/files/00000000-8d40-8209-b659-3ad4778adaad/raw?se=2026-09-06T06%3A32%3A46Z&sp=r&sv=2026-02-06&sr=b&scid=01a07561-b0da-763d-9bd6-96fba5d75d8e&skoid=03727f49-62d3-42ac-8350-1c0e6559d238&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-09-06T02%3A10%3A32Z&ske=2026-09-07T02%3A10%3A32Z&sks=b&skv=2026-02-06&sig=ep2CdROFPTivhNjdisYmq3%2BKzFHK/pgw4H0BlXQtuD0%3D' -o komachi-web.zip
 
       - name: Extract build
         run: |
