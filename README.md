@@ -1,1 +1,0 @@
-# komachi_web_app
